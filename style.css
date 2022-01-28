@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@500&display=swap');
+
+    *{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+.sidebar{
+    background-color:rgb(19, 19, 107);
+    width: 15vw;
+    font-family: 'Roboto', sans-serif;
+    height:150vh;
+}
+
+
+.sidebar nav{
+    padding: 45px
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 25px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a{
+    color:white;
+}
+.main{
+background-color: rgb(222, 226, 218);
+width: 90vw;
+}
+
+.container{
+    display: flex;
+    
+}
+.infoContainer{
+    background-color: rgb(250, 247, 240);
+    height: 78vh;
+    width:80vw;
+    margin: 144px auto;
+    display:flex;
+    justify-content: space-around;
+}
+
+.manviInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hello{
+    font-size: 40px;
+}
+.name{
+    font-size: 50px;
+    font-weight: bold;
+}
+.about{
+    font-size: 30px;
+}
+
+.buttons {
+    margin-top: 34px;
+}
+
+.buttons button {
+    padding: 9px 14px;
+    border-radius: 22px;
+    background-color: rgba(128, 128, 128, 0.438);
+    color: blue;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.buttons button:hover{
+    background-color:rgb(26, 26, 87) ;
+    color:white;
+}
+.manviPic img{
+    width: 240px;
+    height: 78vh;
+}
+
+.Hobbiestitle
+{font-size: 60px;
+font-weight: bold;
+color: rgb(12, 12, 70);}
+
+
+
+.MyhobbiesItem
+{ display:inline-grid;
+    padding: 10px;
+ }
+
+.Myhobbiescontainer{
+    display: flex;
+    padding: 300px;
+    background-color: rgba(0, 255, 13, 0.192);
+    color:black;
+    font-weight: bold;
+    font-size: 25px;
+    height: 48vh;
+    margin:left;
+    justify-content:space-between;
+    align-content: baseline;
+    
+}
+
+.Contactmetitle
+{font-size: 60px;
+font-weight: bold;
+color: black;}
+
+
+
+.ContactmeItem
+{display: flex;flex-direction: row;
+    }
+
+    .Contactmecontainer{
+        display:flex;
+        padding: 100px;
+        color:rgb(7, 24, 99);
+        font-weight: bold;
+        font-size: 30px;
+        height: 48vh;
+        margin: 3px;
+        flex-direction:column;
+        
+    }
+
+    
+    body{
+        background: rgb(199, 209, 221);
+    }
+
+    .skills{
+        width: 500px;
+        margin: 100px auto;
+        color: rgb(32, 12, 122);
+        font-size: 50px;
+    }
+
+    .skills li{
+        margin: 200px 0;
+        font-size: 50px;
+    }
+
+    .bar{
+        background: rgb(0, 0, 0);
+        display: block;
+        height: 5px;
+        border: 2px solid teal;
+        border-radius: 3px;
+        overflow:hidden;
+        box-shadow: white;
+        font-size: 50px;
+
+    }
+
+    .bar span{
+        height: 3px;
+        float: left;
+        background: rgb(6, 240, 240);
+
+    }
+
+    .html{
+        width:40%;
+        animation: html 3s;
+    }
+
+    .css{
+        width:40%;
+        animation: css 3s;
+    }
+
+    .mathematicsenthusiast{
+        width:95%;
+        animation: mathematicsenthusiast 3s;
+    }
+
+    .goodcontentwriter{
+        width:70%;
+        animation: goodcontentwriter 3s;
+    }
+
+    .leadershipqualities{
+        width:85%;
+        animation: leadershipqualities 3s;
+    }
+
+    @keyframes html{
+        0% {
+            width: 0%;
+    }
+    100%{
+        width:40%;
+    }
+}
+
+@keyframes html{
+    0% {
+        width: 0%;
+}
+100%{
+    width:40%;
+}
+}
+
+@keyframes html{
+    0% {
+        width: 0%;
+}
+100%{
+    width:40%;
+}
+}
+
+@keyframes css{
+    0% {
+        width: 0%;
+}
+100%{
+    width:40%;
+}
+}
+
+@keyframes mathematicsenthusiast{
+    0% {
+        width: 0%;
+}
+100%{
+    width:95%;
+}
+}
+
+@keyframes goodcontentwriter{
+    0% {
+        width: 0%;
+}
+100%{
+    width:70%;
+}
+}
+
+@keyframes leadershipqualities{
+    0% {
+        width: 0%;
+}
+100%{
+    width:85%;
+}
+}
