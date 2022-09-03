@@ -234,6 +234,14 @@ color: black;}
     width:40%;
 }
 }
+@keyframes dsa{
+    0% {
+        width: 0%;
+}
+100%{
+    width:70%;
+}
+}
 
 @keyframes mathematicsenthusiast{
     0% {
