@@ -97,8 +97,10 @@ color: rgb(12, 12, 70);}
 
 
 .MyhobbiesItem
-{ display:inline-grid;
+{   display: flex;
     padding: 10px;
+    flex-direction: column;
+}
  }
 
 .Myhobbiescontainer{
